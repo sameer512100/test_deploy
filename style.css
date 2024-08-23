@@ -1,0 +1,68 @@
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+}
+
+/* Login and Form Container */
+.login-container, .form-container, .dashboard-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #2575fc;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #2575fc;
+}
